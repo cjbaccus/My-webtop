@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# ignore any certificates or private key files'
+*.pem
+*.cr
+
 # Distribution / packaging
 .Python
 build/
